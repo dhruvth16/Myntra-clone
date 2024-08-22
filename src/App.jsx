@@ -3,23 +3,6 @@ import ProductList from './Components/ProductList';
 
 function App() {
 
-  // useEffect(() => {
-  //     (async () => {
-  //       try {
-  //         setloading(true)
-  //         seterror(false)
-  //         const res = await fetch('https://fakestoreapi.com/products')
-  //         const obj = await res.json();
-  //         setApi(obj);
-  //         setloading(false)
-  //       } catch (error) {
-  //         seterror(true)
-  //         setloading(false)
-  //     }
-  //     })()
-  //   } 
-  // , [])
-
   return (
     <>
       <Navbar />
