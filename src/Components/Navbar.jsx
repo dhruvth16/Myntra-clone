@@ -1,7 +1,6 @@
 import 'remixicon/fonts/remixicon.css'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import Menubar from './Menubar';
 
 function Navbar() {
 
